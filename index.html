@@ -1,13 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>
-        Deply testing
-    </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Own styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- Shorcut icon -->
+    <link rel="shortcut icon" href="tulogo.ico" type="image/x-icon">
+    <!-- Tittle -->
+    <title>DCZ94 Portfolio</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar">
+    <!-- Header -->
+    <header id="header" class="text-dcz94 sticky-top">
+      <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark gray scrolling-navbar fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#" id="user">DCZ94</a>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span id="toggle-nav-bar" class="navbar-toggler-icon d-flex align-items-center justify-content-center">
+              <i class="fas fa-bars fa-lg"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#WhoIAm">Who I am</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#myWork">My work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </header>
+
+    <!-- Who i am -->
+    <section id="WhoIAm" class="">
+      <div id="background-image">
+        <img class="" src="./Assets/pictures/laptop-3174729_1920.jpg" alt="Computer picture">
+      </div>
+      <div class="overlay">
+        <div class="container wow fadeInUp">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 offset-md-6 text-right ">
+              <h1>David Alberto Cabrera</h1>
+              <h5>Electronic Engineer</h5>
+              <h3>DCZ94</h3>
+              <div id="social">
+                <a class="btn-floating btn-lg btn-tw" type="button" role="button" href="https://www.instagram.com/davidcz94/?r=nametag" target="_blank">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a class="btn-floating btn-lg btn-tw" type="button" role="button" href="https://github.com/DavidCZ94" target="_blank">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a class="btn-floating btn-lg btn-tw" type="button" role="button" href="https://www.linkedin.com/in/david-cabrera-314a69120" target="_blank">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Who i am -->
+
+    <!-- About me -->
+    <section id="aboutMe" class="d-flex align-items-center wow fadeInUp">
+      <div class="container text-left">
+          <h1>
+            About
+            <br>
+            <hr>
+          </h1>
+          <p>I'm an electronic engineer passionate about the world of technology, i love to learn and explore all I can in this amazing and exciting world.</p>
+          <div class="container pr-0 pl-0">
+          <a href="" class="btn btn-light">DOWNLOAD CV</a>
+          </div>
+      </div>
+    </section>
+    <!-- /About me -->
+
+
+    <!-- My Work -->
+    <section id="myWork" class="pt-5 wow adeInUp">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col text-upercase">
+            <small class="text-uppercase">Know</small>
+            <h2>my projects</h2>
+          </div>
+        </div>
+        <div class="row pr-1 pl-1 mr-1 ml-1 pr-md-0 pl-md-0 mr-md-2 ml-md-2">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <!-- Card -->
+            <div class="card text-left">
+              <!--Card image-->
+              <div class="view overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Card title</h4>
+                <!--Text-->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a type="buttom" class="btn btn-dark">Read more</a>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <!-- Card -->
+            <div class="card text-left">
+              <!--Card image-->
+              <div class="view overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Card title</h4>
+                <!--Text-->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a type="buttom" class="btn btn-dark">Read more</a>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <!-- Card -->
+            <div class="card text-left">
+              <!--Card image-->
+              <div class="view overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Card title</h4>
+                <!--Text-->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a type="buttom" class="btn btn-dark">Read more</a>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <!-- Card -->
+            <div class="card text-left">
+              <!--Card image-->
+              <div class="view overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Card title</h4>
+                <!--Text-->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a type="buttom" class="btn btn-dark">Read more</a>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /My work -->
+
+    <!-- Contact -->
+    <section id="contact" class="d-flex align-items-center wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h1>Contact Me</h1>
+            <hr>
+            <p>You can contact me on my social networks or, if you prefer also you can send me a message by Email.</p>
+          </div>
+          <div class="col-12 col-md-6 d-inline-block align-items-center">
+            <div id="social">
+              <div class="row align-items-center">
+                <a class="btn-floating btn-lg btn-tw rounded-circle" type="button" role="button" href="https://www.instagram.com/davidcz94/?r=nametag" target="_blank">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <p class="my-1">
+                  &nbsp;@davidcz94
+                </p>
+              </div>
+              <div class="row align-items-center">
+                <a class="btn-floating btn-lg btn-tw rounded-circle" type="button" role="button" href="https://github.com/DavidCZ94" target="_blank">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+                <p class="my-1">
+                  &nbsp;@DavidCZ94
+                </p>
+              </div>
+              <div class="row align-items-center">
+                <a class="btn-floating btn-lg btn-tw rounded-circle" type="button" role="button" href="https://www.linkedin.com/in/david-cabrera-314a69120" target="_blank">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <p class="my-1">
+                  &nbsp;David Cabrera
+                </p>
+              </div>
+              <div class="row align-items-center">
+                <a class="btn-floating btn-lg btn-tw rounded-circle" type="button" role="button" href="mailto:david940103@gmail.com" target="_blank">
+                  <i class="far fa-envelope fa-2x"></i>
+                </a> 
+                <ul class="list-unstyled my-1">
+                  <li>
+                    david940103@gmail.com
+                  </li>
+                  <li>
+                    david940103@hotmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact -->
+
+     <!-- Footer -->
+    <footer class="page-footer font-small pt-4 wow fadeInUp">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column bavigate-->
+          <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase my-3">Navigate</h5>
+
+            <hr>
+
+            <ul id="footer-navigate-list" class="list-unstyled">
+              <li class="mb-4 navigate-list-item">
+                <a href="#WhoIAm">Who I am</a>
+              </li>
+              <li class="mb-4">
+                <a href="#aboutMe">About me</a>
+              </li>
+              <li class="mb-4">
+                <a href="#myWork">My work</a>
+              </li>
+              <li class="mb-4">
+                <a href="#contact">Contact me</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column Social links-->
+          <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase my-3">Social</h5>
+
+            <hr>
+
+            <ul id="footer-navigate-list" class="list-unstyled">
+              <li class="mb-4 navigate-list-item">
+                <a class="btn-floating btn-fb mx-1" href="https://www.instagram.com/davidcz94/?r=nametag" target="_blank">
+                  <i class="fab fa-instagram">    &nbsp;&nbsp;Instagram</i>
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="btn-floating mx-1" href="https://github.com/DavidCZ94" target="_blank">
+                  <i class="fab fa-github">&nbsp;&nbsp;GitHub</i>
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="btn-floating mx-1" href="https://www.linkedin.com/in/david-cabrera-314a69120" target="_blank">
+                  <i class="fab fa-linkedin-in">&nbsp;&nbsp;LinkedIn</i>
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="btn-floating mx-1" href="mailto:david940103@gmail.com" target="_blank">
+                  <i class="far fa-envelope">&nbsp;&nbsp;Mail</i>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">Created by David Alberto:
+        <a href="https://github.com/DavidCZ94">github.com/DavidCZ94</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <!-- Smooth scrol -->
+    <!-- Get minor updates and patch fixes within a major version -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- Anuimation script -->
+    <script src="./js/animations.js"></script>
+
+  </body>
 </html>
