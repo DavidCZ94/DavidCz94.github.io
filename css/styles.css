@@ -5,6 +5,22 @@ body{
     background-color: #3A3B3D;
 }
 
+@media screen and (max-width: 720px){
+    #WhoIAm h1{
+        font-size: 30px;
+    }
+    #WhoIAm h3{
+        font-size: 20px;
+    }
+    #social i{
+        font-size: 30px;
+    }
+    #whoIAm-overlay-nameAndSocial {
+        padding-top: 70px;
+    }
+}
+
+
 .gray{
     background: rgba(0,0,0,0.199);
 }
