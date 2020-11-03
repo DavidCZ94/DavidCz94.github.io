@@ -1,127 +1,126 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #3a3b3d;
+}
+
+@media screen and (max-width: 750px) {
+  #WhoIAm h1 {
+    font-size: 30px;
+  }
+  #WhoIAm h3 {
     font-size: 20px;
-    color: white;
-    background-color: #3A3B3D;
+  }
+  #social i {
+    font-size: 30px;
+  }
+  #whoIAm-overlay-nameAndSocial {
+    padding-top: 70px;
+  }
 }
 
-@media screen and (max-width: 720px){
-    #WhoIAm h1{
-        font-size: 30px;
-    }
-    #WhoIAm h3{
-        font-size: 20px;
-    }
-    #social i{
-        font-size: 30px;
-    }
-    #whoIAm-overlay-nameAndSocial {
-        padding-top: 70px;
-    }
+.gray {
+  background: rgba(0, 0, 0, 0.199);
 }
 
-
-.gray{
-    background: rgba(0,0,0,0.199);
+.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.89);
 }
 
-.top-nav-collapse{
-    background: rgba(0, 0, 0, 0.89);
+#header {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-#header{
-    background-color: rgba(0,0,0,0.2);
+.active {
+  box-shadow: 0px 5px 16px 1px rgba(184, 17, 17, 0), 0px 5px 10px -7px #ffffff;
 }
 
-.active { 
-    box-shadow: 0px 5px 16px 1px rgba(184,17,17,0), 0px 5px 10px -7px #ffffff;
+#toggle-nav-bar {
+  color: white;
 }
 
-#toggle-nav-bar{
-    color: white;
+#user {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  color: white;
 }
 
-#user{
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 700;
-    color: white;
+#navbarNav ul li a {
+  color: white;
 }
 
-#navbarNav ul li a{
-    color: white;
+.nav-item {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.nav-item{
-    padding-left: 50px;
-    padding-right: 50px;
-} 
-
-#WhoIAm{
-    position: relative;
+#WhoIAm {
+  position: relative;
 }
 
-#WhoIAm img{
-    max-width: 100%;
-    object-fit: cover;
-    filter: grayscale(10%);
+#WhoIAm img {
+  max-width: 100%;
+  object-fit: cover;
+  filter: grayscale(10%);
 }
-#WhoIAm .overlay{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.3);
+#WhoIAm .overlay {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 #WhoIAm .overlay .container,
-#WhoIAm .overlay .row{
-    height: 100%;
+#WhoIAm .overlay .row {
+  height: 100%;
 }
 
-#social a{
-    color: white;
- }
-
-#footer{
-    background-color: black;
+#social a {
+  color: white;
 }
 
-#footer a {
-    color: white;
+#aboutMe {
+  height: 70vh;
 }
 
-#aboutMe{
-    height: 70vh;
-}
- 
-#myWork{
-    background-color: white;
-    color: black;
+#myWork {
+  background-color: white;
+  color: black;
 }
 
-#myWork .row{
-    max-width: 100%;
+#myWork .row {
+  max-width: 100%;
 }
 
-#contact{
-    height: 70vh;
+#contact {
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
 footer {
-    background-color: black;
+  background-color: black;
 }
 
-#footer-navigate-list a:hover{
-    color: rgba( 255, 255, 255, 0.5);
+#footer-navigate-list a:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
-hr{
-    display: inline-block;
-    width: 60px;
-    height: 2px;
-    background-color: white;
+hr {
+  display: inline-block;
+  width: 60px;
+  height: 2px;
+  background-color: white;
+}
+#footer {
+  background-color: black;
+}
+
+#footer a {
+  color: white;
 }
