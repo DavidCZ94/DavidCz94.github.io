@@ -126,6 +126,10 @@ body {
 
 #myWork .row {
   max-width: 100%;
+} 
+
+#myWork .btn img{
+  width: 25px;
 }
 
 #contact {
