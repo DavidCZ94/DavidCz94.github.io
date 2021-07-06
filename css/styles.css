@@ -9,7 +9,11 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: white;
-  background-color: #3a3b3d;
+  background-image: url(../Assets//pictures/laptop-3174729_1920.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 @media screen and (max-width: 750px) {
@@ -22,7 +26,7 @@ body {
   #social i {
     font-size: 30px;
   }
-  #whoIAm-overlay-nameAndSocial {
+  #whoIAm-name-and-social {
     padding-top: 70px;
   }
 }
@@ -77,16 +81,28 @@ body {
   max-width: 250px;
 }
 
-#WhoIAm {
+/* #WhoIAm {
   position: relative;
 }
 
-#WhoIAm img {
-  max-width: 100%;
-  object-fit: cover;
-  filter: grayscale(10%);
+#WhoIAm #background-image{
+  filter: grayscale(100%);
+  width: 99vw;
+} */
+
+#whoIAm-profile-picture{
+  transition: box-shadow 0.2s;
+  max-width: 80%;
+  margin: auto;
 }
-#WhoIAm .overlay {
+
+#whoIAm-profile-picture:hover{
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+}
+
+/* #WhoIAm .overlay {
   font-family: 'Roboto', sans-serif;
   color: white;
   position: absolute;
@@ -95,7 +111,7 @@ body {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
-}
+} */
 
 #WhoIAm .overlay .container,
 #WhoIAm .overlay .row {
@@ -107,6 +123,8 @@ body {
 }
 
 #aboutMe {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0.8244339972317052) 0%, rgba(0,0,0,1) 100%);
   height: 70vh;
 }
 
@@ -120,8 +138,8 @@ body {
 }
 
 #myWork {
-  background-color: white;
-  color: black;
+  /* background-color: white;
+  color: black; */
 }
 
 #myWork .row {
@@ -133,12 +151,15 @@ body {
 }
 
 #contact {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0.8244339972317052) 0%, rgba(0,0,0,1) 100%);
   padding-top: 65px;
   padding-bottom: 65px;
 }
 
 footer {
-  background-color: black;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0.8244339972317052) 0%, rgba(0,0,0,1) 100%);
 }
 
 #footer-navigate-list a:hover {
